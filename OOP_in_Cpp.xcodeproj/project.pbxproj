@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7AFC5B521EC74528005606B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC5B511EC74528005606B6 /* main.cpp */; };
+		7AFC5B5A1EC74ACD005606B6 /* Helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC5B581EC74ACD005606B6 /* Helper.cpp */; };
+		7AFC5B5D1EC74B83005606B6 /* Human.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC5B5B1EC74B83005606B6 /* Human.cpp */; };
+		7AFC5B601EC74CBF005606B6 /* Superhuman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC5B5E1EC74CBF005606B6 /* Superhuman.cpp */; };
+		7AFC5B671EC74E03005606B6 /* SimpleLinked.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC5B651EC74E03005606B6 /* SimpleLinked.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		7AFC5B4E1EC74528005606B6 /* OOP_in_Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OOP_in_Cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFC5B511EC74528005606B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7AFC5B581EC74ACD005606B6 /* Helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Helper.cpp; sourceTree = "<group>"; };
+		7AFC5B591EC74ACD005606B6 /* Helper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Helper.hpp; sourceTree = "<group>"; };
+		7AFC5B5B1EC74B83005606B6 /* Human.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Human.cpp; sourceTree = "<group>"; };
+		7AFC5B5C1EC74B83005606B6 /* Human.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Human.hpp; sourceTree = "<group>"; };
+		7AFC5B5E1EC74CBF005606B6 /* Superhuman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Superhuman.cpp; sourceTree = "<group>"; };
+		7AFC5B5F1EC74CBF005606B6 /* Superhuman.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Superhuman.hpp; sourceTree = "<group>"; };
+		7AFC5B651EC74E03005606B6 /* SimpleLinked.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleLinked.cpp; sourceTree = "<group>"; };
+		7AFC5B661EC74E03005606B6 /* SimpleLinked.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SimpleLinked.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +70,48 @@
 			isa = PBXGroup;
 			children = (
 				7AFC5B511EC74528005606B6 /* main.cpp */,
+				7AFC5B641EC74DE9005606B6 /* Liste */,
+				7AFC5B611EC74D1C005606B6 /* HumanKind */,
 			);
 			path = OOP_in_Cpp;
+			sourceTree = "<group>";
+		};
+		7AFC5B611EC74D1C005606B6 /* HumanKind */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC5B631EC74D34005606B6 /* Helpers */,
+				7AFC5B621EC74D2C005606B6 /* Superhumans */,
+				7AFC5B5B1EC74B83005606B6 /* Human.cpp */,
+				7AFC5B5C1EC74B83005606B6 /* Human.hpp */,
+			);
+			name = HumanKind;
+			sourceTree = "<group>";
+		};
+		7AFC5B621EC74D2C005606B6 /* Superhumans */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC5B5E1EC74CBF005606B6 /* Superhuman.cpp */,
+				7AFC5B5F1EC74CBF005606B6 /* Superhuman.hpp */,
+			);
+			name = Superhumans;
+			sourceTree = "<group>";
+		};
+		7AFC5B631EC74D34005606B6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC5B581EC74ACD005606B6 /* Helper.cpp */,
+				7AFC5B591EC74ACD005606B6 /* Helper.hpp */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		7AFC5B641EC74DE9005606B6 /* Liste */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC5B651EC74E03005606B6 /* SimpleLinked.cpp */,
+				7AFC5B661EC74E03005606B6 /* SimpleLinked.hpp */,
+			);
+			name = Liste;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AFC5B521EC74528005606B6 /* main.cpp in Sources */,
+				7AFC5B5A1EC74ACD005606B6 /* Helper.cpp in Sources */,
+				7AFC5B671EC74E03005606B6 /* SimpleLinked.cpp in Sources */,
+				7AFC5B5D1EC74B83005606B6 /* Human.cpp in Sources */,
+				7AFC5B601EC74CBF005606B6 /* Superhuman.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
